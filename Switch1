@@ -1,0 +1,13 @@
+var name = prompt("Please enter your name:");
+
+var city = prompt("Please enter your city:");
+
+var age = 14;
+
+switch (age) {
+  case 13-17: alert("Hello, " + name + "! You are a minor living in " + city + ".");
+    break;
+  case 18-40: alert("Hello, " + name + "! You are an adult living in " + city + ".");
+    break;
+  default: alert("Hello, " + name + "! You are a senior citizen living in " + city + ".");
+}
